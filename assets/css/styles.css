@@ -1,0 +1,189 @@
+@media (min-width: 1024px) {
+  body.page-home,
+  body.page-services,
+  body.page-contact,
+  body.page-about {
+    background: #f6f7f8;
+  }
+
+  body.page-home > header,
+  body.page-services > header,
+  body.page-contact > header,
+  body.page-about > header {
+    background: #0d1c2b;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  body.page-home > header > div,
+  body.page-services > header > div,
+  body.page-contact > header > div,
+  body.page-about > header > div {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    column-gap: 0;
+  }
+
+  body.page-home > header > div > div:last-child,
+  body.page-services > header > div > div:last-child,
+  body.page-contact > header > div > div:last-child,
+  body.page-about > header > div > div:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  body.page-home > header > div > div:last-child > a,
+  body.page-services > header > div > div:last-child > a,
+  body.page-contact > header > div > div:last-child > a,
+  body.page-about > header > div > div:last-child > a {
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  body.page-home > nav,
+  body.page-services > nav,
+  body.page-contact > nav,
+  body.page-about > nav {
+    max-width: 1100px;
+    margin: -64px auto 0;
+    height: 64px;
+    background: transparent;
+    border-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding-left: 470px;
+    padding-right: 260px;
+    position: relative;
+    z-index: 60;
+  }
+
+  body.page-home > nav a,
+  body.page-services > nav a,
+  body.page-contact > nav a,
+  body.page-about > nav a {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  body.page-home > nav a .material-symbols-outlined,
+  body.page-services > nav a .material-symbols-outlined,
+  body.page-contact > nav a .material-symbols-outlined,
+  body.page-about > nav a .material-symbols-outlined {
+    font-size: 18px;
+  }
+
+  body.page-home > section.relative.bg-primary.overflow-hidden {
+    min-height: auto;
+  }
+
+  body.page-home > section.relative.bg-primary.overflow-hidden > div.relative {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 84px;
+    padding-bottom: 64px;
+  }
+
+  body.page-home > section.relative.bg-primary.overflow-hidden > div.relative > p {
+    max-width: 720px;
+  }
+
+  body.page-home > section.relative.bg-primary.overflow-hidden .flex.flex-col.w-full.gap-3 {
+    width: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  body.page-home > section.relative.bg-primary.overflow-hidden .flex.flex-col.w-full.gap-3 > button {
+    min-width: 210px;
+  }
+
+  body.page-home > section.relative.bg-primary.overflow-hidden .mt-10 {
+    max-width: 420px;
+    margin-left: 0;
+  }
+
+  body.page-home > section.py-12.px-4 > h3,
+  body.page-home > section.py-12.px-4 > div,
+  body.page-home > section.bg-accent-red.text-white.py-12.px-6 > h3,
+  body.page-home > section.bg-accent-red.text-white.py-12.px-6 > p,
+  body.page-home > section.bg-accent-red.text-white.py-12.px-6 > a,
+  body.page-home > footer > div {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.page-services main > section[id] {
+    max-width: 1100px;
+    margin: 18px auto;
+    border: 1px solid #dbe2ea;
+    border-radius: 14px;
+    background: #ffffff;
+  }
+
+  body.page-services main > section[id] .flex.gap-3.pt-2 {
+    justify-content: flex-start;
+  }
+
+  body.page-services main > section[id] .flex.gap-3.pt-2 > a {
+    flex: 0 0 auto;
+    width: 220px;
+  }
+
+  body.page-services main > div.px-4.py-8 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.page-services main > div.px-4.py-8 > div {
+    width: 100%;
+  }
+
+  body.page-contact main > section.px-4.pt-8.pb-4,
+  body.page-contact main > section.px-4.py-4,
+  body.page-contact main > div.grid.grid-cols-1.gap-8.px-4.py-6,
+  body.page-contact main > section.w-full.h-64,
+  body.page-contact footer > div.max-w-7xl {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.page-contact main > div.grid.grid-cols-1.gap-8.px-4.py-6 {
+    grid-template-columns: 1.2fr 0.8fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  body.page-contact main > section.w-full.h-64 {
+    margin-top: 12px;
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  body.page-about footer > div.max-w-7xl,
+  body.page-services footer > div.max-w-7xl,
+  body.page-home footer > div.max-w-7xl {
+    max-width: 1100px;
+  }
+}
